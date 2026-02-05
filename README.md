@@ -4,7 +4,7 @@ This is created as a personal workspace for learning and experimenting with mode
 
 ## Toolchain & Standards
 
-- C+20
+- C++20
 - Clang/ clang++
 - CMake
 - Ninja
@@ -26,9 +26,11 @@ sudo apt install \
 
 ## Build & Run
 
+```bash
 cmake --preset default
 cmake --build --preset default
 ./build/hello
+```
 
 
 
